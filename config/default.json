@@ -1,0 +1,18 @@
+{
+    "port": 3008,
+    "mysql": {
+        "host": "localhost",
+        "user": "root",
+        "password": "root",
+        "database": "test",
+        "dialect": "mysql",
+        "pool": {
+            "max": 5,
+            "min": 0,
+            "idle": 10000
+        }
+    },
+    "salt_rounds": 12,
+    "secretKey": "secretKey",
+    "tokenExpireTime": 360000
+}
